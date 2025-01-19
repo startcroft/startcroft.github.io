@@ -1,0 +1,16 @@
+.Menu{
+    background-color: #640d0d;
+    border-radius: 1.25rem;
+    width: 31.25rem;
+    padding: .625rem;
+    display: flex;
+    justify-content: space-around;
+
+    &__a{
+        text-decoration: none;
+        font-family: "Quintessential", serif;
+        color: #ffbd59;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+}
