@@ -1,5 +1,6 @@
 import './Menu.scss'
 import { NavLink, useLocation } from 'react-router-dom'
+import pluma from '../assets/pluma.png'
 
 export const Menu = () => {
     const location = useLocation();
@@ -20,7 +21,7 @@ export const Menu = () => {
                 className= {`Menu__a ${location.pathname === item.path ? 'active' : ''}`}
                 >
                 {item.label}
-                {location.pathname === item.path && <img src='../src/assets/pluma.png'/>}
+                {location.pathname === item.path && <img src={pluma}/>}
                 </NavLink>
             ))}
         </div>
